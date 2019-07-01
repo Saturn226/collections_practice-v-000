@@ -39,6 +39,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |value, index|
-    value << "s"
+    value << "s" if index != 2
   end
 end
