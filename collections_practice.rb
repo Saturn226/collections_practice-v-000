@@ -40,6 +40,6 @@ end
 def add_s(array)
   array.each_with_index.collect do |value, index|
     value << "s" if index != 2
-    return value if index == 2
+    value
   end
 end
