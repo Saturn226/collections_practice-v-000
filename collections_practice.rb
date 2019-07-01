@@ -45,5 +45,7 @@ def add_s(array)
   #   value
   # end
   
+  value << "s" if index != 1 || value
+  
 end
 end
