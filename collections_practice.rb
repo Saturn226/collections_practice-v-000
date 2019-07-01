@@ -31,4 +31,7 @@ def find_a(array)
 end
 
 def sum_array(array)
+  array.reduce do |a,b| 
+    a + b
+  end
 end
