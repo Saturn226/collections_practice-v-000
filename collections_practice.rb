@@ -20,6 +20,6 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    word.chars[2] = "$"
+    word.split('')[2] = "$"
   end
 end
