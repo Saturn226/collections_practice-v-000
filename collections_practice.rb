@@ -21,7 +21,8 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    binding.pry
-   word
+   word.chars
+   word[3] = "$"
+   word.join()
   end
 end
