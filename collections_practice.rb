@@ -22,5 +22,6 @@ end
 def kesha_maker(array)
   array.collect do |word|
    word[3] = "$"
+   word
   end
 end
