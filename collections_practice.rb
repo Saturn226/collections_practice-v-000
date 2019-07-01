@@ -20,6 +20,7 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
+    binding.pry
    word
   end
 end
